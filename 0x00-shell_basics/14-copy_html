@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -u --exclude '*.html' --exclude-from='exclude.txt' ./* ../
+rsync -u --exclude '*.txt' *.html ./* ../
