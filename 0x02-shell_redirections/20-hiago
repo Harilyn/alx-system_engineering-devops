@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Cucumber cake" | tr -d 'cC'
+tr -d "Cc"
